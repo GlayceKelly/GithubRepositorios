@@ -18,6 +18,9 @@
 		4338E78924462B3900295C52 /* TableViewCellRespositories.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4338E78724462B3900295C52 /* TableViewCellRespositories.xib */; };
 		4338E78B2446414700295C52 /* ClassesGithub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4338E78A2446414700295C52 /* ClassesGithub.swift */; };
 		4338E7902446452100295C52 /* GithubAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4338E78F2446452100295C52 /* GithubAPI.swift */; };
+		4338E79B2447A25C00295C52 /* DetailRepositoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4338E7992447A25C00295C52 /* DetailRepositoriesView.swift */; };
+		4338E79C2447A25C00295C52 /* DetailRepositoriesView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4338E79A2447A25C00295C52 /* DetailRepositoriesView.xib */; };
+		4338E79E2447AED800295C52 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4338E79D2447AED800295C52 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +38,9 @@
 		4338E78724462B3900295C52 /* TableViewCellRespositories.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCellRespositories.xib; sourceTree = "<group>"; };
 		4338E78A2446414700295C52 /* ClassesGithub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassesGithub.swift; sourceTree = "<group>"; };
 		4338E78F2446452100295C52 /* GithubAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubAPI.swift; sourceTree = "<group>"; };
+		4338E7992447A25C00295C52 /* DetailRepositoriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailRepositoriesView.swift; sourceTree = "<group>"; };
+		4338E79A2447A25C00295C52 /* DetailRepositoriesView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailRepositoriesView.xib; sourceTree = "<group>"; };
+		4338E79D2447AED800295C52 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		7C352824AEDF6B8A311C1D1D /* Pods-GithubCustomCellXib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GithubCustomCellXib.release.xcconfig"; path = "Target Support Files/Pods-GithubCustomCellXib/Pods-GithubCustomCellXib.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -114,7 +120,9 @@
 			isa = PBXGroup;
 			children = (
 				4338E76F244628EE00295C52 /* ViewController.swift */,
+				4338E7992447A25C00295C52 /* DetailRepositoriesView.swift */,
 				4338E78624462B3900295C52 /* TableViewCellRespositories.swift */,
+				4338E79D2447AED800295C52 /* DetailViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -123,6 +131,7 @@
 			isa = PBXGroup;
 			children = (
 				4338E78724462B3900295C52 /* TableViewCellRespositories.xib */,
+				4338E79A2447A25C00295C52 /* DetailRepositoriesView.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -187,6 +196,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4338E79C2447A25C00295C52 /* DetailRepositoriesView.xib in Resources */,
 				4338E778244628F400295C52 /* LaunchScreen.storyboard in Resources */,
 				4338E78924462B3900295C52 /* TableViewCellRespositories.xib in Resources */,
 				4338E775244628F400295C52 /* Assets.xcassets in Resources */,
@@ -245,10 +255,12 @@
 			files = (
 				4338E770244628EE00295C52 /* ViewController.swift in Sources */,
 				4338E7902446452100295C52 /* GithubAPI.swift in Sources */,
+				4338E79B2447A25C00295C52 /* DetailRepositoriesView.swift in Sources */,
 				4338E78B2446414700295C52 /* ClassesGithub.swift in Sources */,
 				4338E76C244628EE00295C52 /* AppDelegate.swift in Sources */,
 				4338E78824462B3900295C52 /* TableViewCellRespositories.swift in Sources */,
 				4338E76E244628EE00295C52 /* SceneDelegate.swift in Sources */,
+				4338E79E2447AED800295C52 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

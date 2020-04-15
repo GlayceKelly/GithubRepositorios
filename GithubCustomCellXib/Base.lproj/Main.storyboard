@@ -76,5 +76,35 @@
             </objects>
             <point key="canvasLocation" x="138.40000000000001" y="113.79310344827587"/>
         </scene>
+        <!--Detail View Controller-->
+        <scene sceneID="j5r-nl-LIG">
+            <objects>
+                <viewController storyboardIdentifier="DetailViewController" id="aVl-dk-6oV" customClass="DetailViewController" customModule="GithubCustomCellXib" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="WJ3-yQ-ZfY">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zgb-2M-PKA">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" systemColor="systemGray2Color" red="0.68235294120000001" green="0.68235294120000001" blue="0.69803921570000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="zgb-2M-PKA" firstAttribute="trailing" secondItem="8s1-TL-9Mg" secondAttribute="trailing" id="5Jy-5k-Ho5"/>
+                            <constraint firstItem="zgb-2M-PKA" firstAttribute="bottom" secondItem="8s1-TL-9Mg" secondAttribute="bottom" id="99X-i7-vFe"/>
+                            <constraint firstItem="zgb-2M-PKA" firstAttribute="leading" secondItem="8s1-TL-9Mg" secondAttribute="leading" id="AJi-jh-Aka"/>
+                            <constraint firstItem="zgb-2M-PKA" firstAttribute="top" secondItem="8s1-TL-9Mg" secondAttribute="top" id="vrd-gw-bhE"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="8s1-TL-9Mg"/>
+                    </view>
+                    <connections>
+                        <outlet property="viewPrincipal" destination="zgb-2M-PKA" id="EhP-lR-ejp"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fsT-kt-Qll" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="956" y="119.1904047976012"/>
+        </scene>
     </scenes>
 </document>

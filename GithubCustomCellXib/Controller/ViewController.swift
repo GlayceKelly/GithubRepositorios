@@ -141,5 +141,20 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
             }
         }
     }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+
+        let next = self.storyboard?.instantiateViewController(withIdentifier: "DetailViewController") as! DetailViewController
+        
+        if loadJava {
+            next.items = itemsJava[indexPath.row]
+        } else if loadSwift {
+            next.items = itemsSwift[indexPath.row]
+        }
+        
+        self.present(next, animated: false, completion: nil)
+        
+        print("clique na célula \(indexPath.row)")
+    }
 }
 
